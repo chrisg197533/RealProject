@@ -1,0 +1,69 @@
+/* ================================= 
+  Page Style
+==================================== */
+body::after {
+	content: "";
+	background: url(http://cwstrategies.staffingindustry.com/wp-content/uploads/2017/11/eye-1202254_1920.jpg);
+	background-size: 100%;
+	opacity: 0.3;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	position: absolute;
+	z-index: -1;   
+  }
+  
+  /* ================================= 
+  Base Element Styles
+==================================== */
+
+a { 
+	color: rgb(202, 25, 25);
+	text-decoration: none;
+}
+
+/* ================================= 
+  Base Layout Styles
+==================================== */
+
+/* ---- Navigation ---- */
+
+.name {
+	margin: 0;
+}
+
+/* ---- Layout Containers ---- */
+
+.container {
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+/*.main-header {
+	background: #3acec2;
+	padding: 1em 0;
+}*/
+
+.main-footer {
+	text-align: center;
+	padding: 1em 0;
+	background: #aceecd;
+}
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+@media (min-width: 769px) {
+
+	.wrapper {
+		min-height: calc(100vh - 82px);
+	}
+
+	.container {
+		width: 70%;
+		max-width: 1000px;
+		margin: 0 auto;
+	}
+}
